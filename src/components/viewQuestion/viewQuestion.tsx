@@ -1,5 +1,5 @@
 import React from "react";
-import { iQuestion } from "../../screens/AddQuestionScreen";
+import { iQuestion } from "../../redux/testResucer";
 interface iProps {
   question: iQuestion;
 }

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AddIcon } from "../icons/AddIcon";
-import { iAnswer, typeQuestion } from "../../screens/AddQuestionScreen";
+import { iAnswer, typeQuestion } from "../../redux/testResucer";
 
 const Supplement = ({createQuestion}) => {
   const [questionState, setQuestionState] = useState("");

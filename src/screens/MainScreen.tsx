@@ -6,6 +6,7 @@ import {
     Link
   } from "react-router-dom";
 import AddQuestionScreen from "./AddQuestionScreen";
+import ListTests from "./ListTests";
 
 class MainScreen extends React.Component {
   render() {
@@ -26,13 +27,10 @@ class MainScreen extends React.Component {
         </div>
       </div>
       <Switch>
-          <Route path="/about">
-            {/* <About /> */}
+          <Route path="/listTest">
+            <ListTests />
           </Route>
-          <Route path="/users">
-            {/* <Users /> */}
-          </Route>
-          <Route path="/">
+          <Route path="/createTest">
             <AddQuestionScreen />
           </Route>
         </Switch>

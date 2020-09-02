@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { AddIcon } from "../icons/AddIcon";
-import { iAnswer, iQuestion, typeQuestion } from "../../screens/AddQuestionScreen";
+import { iAnswer, iQuestion, typeQuestion } from "../../redux/testResucer";
 
 let idAnswer = 0;
 const OneSelect = ({createQuestion}) => {

@@ -1,1 +1,2 @@
 export const CREATE_QUESTION = "CREATE_QUESTION"
+export const ADD_TEST = "ADD_TEST"
